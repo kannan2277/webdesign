@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    border: 2px red solid;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.ul1{
+    list-style-type: none;
+    border: 2px black solid;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+}
+.a1{
+    text-decoration: none;
+    color: black;
+}
+.nav1{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-color: aqua;
+}
+#menu{
+    display: none;
+}
+.ul2{
+    list-style-type: none;
+    background-color: blueviolet;
+    display: none;
+}
+.ul2 li{
+    margin-top: 30px;
+}
+@media screen and (max-width:1100px)
+{
+    .ul1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+}

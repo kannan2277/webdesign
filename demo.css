@@ -1,0 +1,590 @@
+a{
+  text-decoration: none;
+}
+header{
+    border: 2px red solid;
+    height: 180px;
+    /* position: fixed; */
+    width:100%;
+    background-color: rgb(231, 176, 150);
+   
+}
+.logo{
+    margin-left: 100px;
+    height:150px;
+    width: 150px;
+    clip-path: circle(55%);
+}
+.nav1{
+    display: flex;
+    height: 160px;
+    background-color: rgb(234, 136, 90);
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+#menu{
+    display:none;
+    font-size: 80px;
+}
+.a1{
+    text-decoration: none;
+    color: red;
+}
+.ul1{
+    list-style-type: none;
+    display: flex;
+    width: 100%;  
+    justify-content: space-evenly;
+}
+
+.ul2{
+    list-style-type: none;
+    background-color: aqua;
+    display: none;
+    font-size: 50px;
+    font-family: cursive;
+  
+}
+.ul1 li{
+   padding:10px 30px;
+   font-size: 50px;
+   font-family: cursive;
+    border-radius: 10px;
+    
+}
+.ul2 li{
+  margin-top: 20px;
+}
+.ul1 li:hover {
+    color:red;
+    background-color:gold;}
+   
+    .ul2 li:hover
+    {
+  color: red;
+  background-color: gold;
+}
+@media screen and (min-width:1px) and (max-width:1300px)
+{
+    .ul1{
+        display: none;
+    }
+    .nav1{
+      background-color:rgb(234, 136, 90) ;
+      width: 100%;
+    }
+    #menu{
+        display: block;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:1px) and (max-width:1300px)
+{
+    .maincontent .col h1{
+       width: 60%;
+       text-align: center;
+    }
+.maincontent .col h2{
+    width: 65%;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+.row img{
+    display: none;
+}
+}
+
+@media screen and (min-width:1px) and (max-width:2820px){
+  
+  .aboutsection{
+    margin-top: 350%;
+  }
+  
+  .aboutdetails h2{
+  margin-left: 10%;
+  
+  }
+  
+  .aboutdetails p{
+    margin-left: 8%;
+  }
+  .sociallinklist .sociallink{
+    margin-left: 8%;
+    margin-top: 1%;
+  }
+  }
+  @media screen and (min-width:700px) and (max-width:1300px) {
+    .gallery h1{
+      margin-left: 30%;
+    }
+    .gallerysection{
+      margin-left: 50%;
+    }
+    
+  }
+  @media screen and (min-width:350px) and (max-width:700px) {
+    .gallery h1{
+      margin-left: 80%;
+    }
+    .gallerysection{
+margin-left: 50%;
+    }
+  }
+  @media screen and (max-width:350px) {
+    .gallery h1{
+      margin-left: 120%;
+    }
+    .gallerysection{
+      margin-left: 50%;
+    }
+  }
+  @media screen and (min-width:1400px) and (max-width:2556px) {
+.menusection{
+  margin-top: 250%;
+}
+  }
+@media screen and (min-width:1px) and (max-width:1399px){
+.menusection{
+ margin-top: 1200%;
+ margin-left: 50%;
+  }
+.menudetails{
+  margin-left: 50%;
+}
+}
+@media screen and (min-width:1px) and (max-width:1400px) {
+  .contactsection{
+    margin-left: 80%;
+  }
+  
+}
+
+  
+  
+ 
+
+.maincontent{
+    border: 2px violet solid;
+    width: 100%;
+    height:2100px;
+}
+
+.maincontent .col img{
+position: relative;
+  height: 70%;
+  width: 100%;
+  margin-top: 30%;
+  
+
+}
+.row{
+  border: 2px solid green;
+  width: 100%;
+  height: 100%;
+}
+.row img{
+    position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.maincontent .col{
+    width: 1000px;
+    height:1350px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 200px;
+    margin: 200px;
+}
+
+.maincontent .col h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.maincontent .col h2{
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(0, 0, 0, 0.803);
+  }
+.maincontent .col h2 span {
+    font-size: 150px;
+    color: black;
+}
+.maincontent .col p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+font-size: 60px;
+
+}
+.maincontent .col p span {
+  color: rgb(186, 38, 38);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.maincontent .col h3{
+
+  color: brown;
+  font-size: 50px;
+}
+.button{
+  
+  margin: 10%;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: brown;
+}
+.button:hover{
+    color: black;
+    border-color:brown;
+    background: transparent;
+}
+.trees{
+  border: 2px brown solid;
+  width: 100%;
+  height: 100%;
+}
+.branch{
+  border: 2px green ridge;
+  height: 1300px;
+  width: 1200px;
+  display: inline-block ;
+  margin: 3%;
+  vertical-align: top;
+}
+.branch img{
+  height: 100%;
+  width: 100%;
+}
+.branch h1{
+  color: red;
+  font-family: cursive;
+  text-align: center;
+  font-size: 70px;
+}
+.branch p{
+  margin: 3%;
+  color: black;
+  font-size: 50px;
+  font-family: cursive;
+  
+}
+.branch span{
+  color: rgb(189, 200, 27);
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.branch h3{
+  border: 2px red ridge;
+  height: 90px;
+  width: 60%;
+  margin: 10%;
+  padding: 2%;
+border-radius: 6%;
+
+  color:black;
+  background-color: brown;
+  font-size: 50px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.branch button{
+  font-size: 40px;
+  margin-left: 350px;
+  border-radius: 20px;
+  color: white;
+  background-color: brown;
+}
+.branch button:hover{
+  color: red;
+  background-color: gold;
+}
+.aboutsection{
+    border: 2px red solid;
+    height:100%;
+    width: 100%;
+}
+.aboutdetails{
+  border: 2px violet solid;
+  height: 1300px;
+  width: 1100px;
+  display: inline-block;
+  margin: 5%;
+  vertical-align: top;
+
+}
+ .aboutdetails img{
+  margin-left: 8%;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutdetails h2{
+    font-size:90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 0, 0);
+
+}
+
+.aboutdetails p{
+    font-size: 50px;
+    font-family: cursive;
+    color: black;
+}
+.aboutdetails h2 span{
+    color: red;
+    font-size: 200px;
+    font-family: cursive;
+}
+.aboutdetails p span{
+    color: red;
+    font-weight: 800;
+    font-family: cursive;
+}
+.sociallinklist{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+  
+}
+.sociallink{
+    color: rgb(9, 0, 0);
+    font-size: 50px;
+}
+.sociallink :hover{
+    color: red;
+    cursor: pointer;
+}
+.gallery{
+
+    border: 2px violet solid;
+    height: 300px;
+    width: 100%;
+}
+.gallery h1{
+  
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+    font-size: 100px;
+text-align: center;
+}
+.gallerysection{
+    border: 2px red solid;
+    height: 1700px;
+    width: 100%;
+}
+.galleryitems{
+    border: 2px blue solid;
+    height: 600px;
+    width: 600px;
+  clip-path: circle(55%);
+    display: inline-block;
+    margin: 120px;
+}
+.galleryitems :hover{
+    transform: scale(0.8,0.8);
+    cursor: pointer;
+}
+.menusection{
+    /* border: 2px red solid; */
+    height: 250px;
+    width: 100%;
+    /* background-color: black; */
+    color: red;
+}
+.menusection h2{
+  margin-left: 30%;
+    font-size: 80px;
+    font-family: cursive;
+    
+}
+.menudetails{
+    border: 2px black solid;
+    height: 100%;
+    width: 100%;
+/* background-color: black; */
+    
+}
+.menulist{
+    margin: 110px;
+    border: 2px blue solid;
+    display: inline-block;
+    vertical-align: top;
+    height: 1450px;
+    width: 700px;
+    background-color: black;
+}
+
+.menulist h3{
+    text-align: center;
+    font-size: 80px;
+font-family: cursive;
+font-weight: bold;
+    color: red;
+}
+.menulist p{
+    margin-left: 40px;
+    text-align: center;
+    color: gold;
+    font-size: 60px;
+    font-family: cursive;
+}
+.contactsection{
+    border: 2px red solid;
+    height: 290px;
+    width: 100%;
+    /* background-color: rgb(234, 198, 204); */
+}
+.contactsection h1{
+    color: red;
+    text-align: center;
+    font-size: 100px;
+    font-family: cursive;
+
+}
+.contactdetails{
+    /* background-color: rgb(234, 198, 204); */
+    border: 2px violet solid;
+    height: 1300px;
+    width: 100%;
+    
+}
+.contactinfo{
+    border: 2px black solid;
+    height: 1100px;
+    width: 1150px;
+    margin: 125px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contactinfo li{
+    list-style-type: none;
+    font-size: 50px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+.contactinfo li:hover{
+    color: red  ;
+    cursor: pointer;
+}
+
+.contactinfo h2{
+    font-size: 50px;
+    font-family: monospace;
+}
+.contactinfo form input{
+    width: 100%;
+    font-size: 30px;
+    height: 50px;
+    padding: 15px;
+    margin: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid gray ;
+}
+.contactinfo form textarea{
+    height: 300px;
+    font-size: 30px;
+    width: 100%;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.contactinfo .submitbutton{
+    color: yellow;
+padding: 10px 20px;
+border-radius: 20px;
+font-weight: 400;
+font-size: 50px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 400px;
+margin-top: 100px;
+background-color:red;
+border: 2px red solid;
+transition: 0.2s ease;
+}
+.contactinfo .submitbutton:hover
+{
+    color: blue;
+    background-color:gold;
+}
+.flip-in-ver-right {
+	animation: flip-in-ver-right 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+@keyframes flip-in-ver-right {
+  0% {
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+.text-focus-in {
+	animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.fade-out {
+	animation: fade-out 5s ease-out infinite both;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.heartbeat {
+	animation: heartbeat 3s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+
