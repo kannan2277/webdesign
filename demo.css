@@ -2,7 +2,7 @@ a{
   text-decoration: none;
 }
 header{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 180px;
     /* position: fixed; */
     width:100%;
@@ -167,7 +167,7 @@ margin-left: 50%;
  
 
 .maincontent{
-    border: 2px violet solid;
+    /* border: 2px violet solid; */
     width: 100%;
     height:2100px;
 }
@@ -181,7 +181,7 @@ position: relative;
 
 }
 .row{
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   height: 100%;
 }
@@ -234,7 +234,7 @@ font-size: 60px;
   
   margin: 10%;
     padding: 20px 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 30px;
     color: white;
     font-size: 40px;
@@ -247,7 +247,7 @@ font-size: 60px;
     background: transparent;
 }
 .trees{
-  border: 2px brown solid;
+  /* border: 2px brown solid; */
   width: 100%;
   height: 100%;
 }
@@ -282,7 +282,7 @@ font-size: 60px;
   font-family: 'Times New Roman', Times, serif;
 }
 .branch h3{
-  border: 2px red ridge;
+  /* border: 2px red ridge; */
   height: 90px;
   width: 60%;
   margin: 10%;
@@ -307,12 +307,12 @@ border-radius: 6%;
   background-color: gold;
 }
 .aboutsection{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height:100%;
     width: 100%;
 }
 .aboutdetails{
-  border: 2px violet solid;
+  /* border: 2px violet solid; */
   height: 1300px;
   width: 1100px;
   display: inline-block;
@@ -364,7 +364,7 @@ border-radius: 6%;
 }
 .gallery{
 
-    border: 2px violet solid;
+    /* border: 2px violet solid; */
     height: 300px;
     width: 100%;
 }
@@ -376,12 +376,12 @@ border-radius: 6%;
 text-align: center;
 }
 .gallerysection{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 1700px;
     width: 100%;
 }
 .galleryitems{
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     height: 600px;
     width: 600px;
   clip-path: circle(55%);
@@ -406,7 +406,7 @@ text-align: center;
     
 }
 .menudetails{
-    border: 2px black solid;
+    /* border: 2px black solid; */
     height: 100%;
     width: 100%;
 /* background-color: black; */
@@ -414,7 +414,7 @@ text-align: center;
 }
 .menulist{
     margin: 110px;
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     display: inline-block;
     vertical-align: top;
     height: 1450px;
@@ -437,7 +437,7 @@ font-weight: bold;
     font-family: cursive;
 }
 .contactsection{
-    border: 2px red solid;
+    /* border: 2px red solid; */
     height: 290px;
     width: 100%;
     /* background-color: rgb(234, 198, 204); */
@@ -451,13 +451,13 @@ font-weight: bold;
 }
 .contactdetails{
     /* background-color: rgb(234, 198, 204); */
-    border: 2px violet solid;
+    /* border: 2px violet solid; */
     height: 1300px;
     width: 100%;
     
 }
 .contactinfo{
-    border: 2px black solid;
+    /* border: 2px black solid; */
     height: 1100px;
     width: 1150px;
     margin: 125px;
@@ -488,7 +488,7 @@ font-weight: bold;
     margin: 20px;
     margin-bottom: 50px;
     border-radius: 10px;
-    border: 1px solid gray ;
+    /* border: 1px solid gray ; */
 }
 .contactinfo form textarea{
     height: 300px;
@@ -497,7 +497,7 @@ font-weight: bold;
     padding: 15px;
     margin: 20px;
     border-radius: 20px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 .contactinfo .submitbutton{
     color: yellow;
@@ -509,7 +509,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-left: 400px;
 margin-top: 100px;
 background-color:red;
-border: 2px red solid;
+/* border: 2px red solid; */
 transition: 0.2s ease;
 }
 .contactinfo .submitbutton:hover
